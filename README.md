@@ -12,3 +12,5 @@ $> make .
 **Right click a node:** Delete the node
 
 **Left click & drag a node:** Drag a node
+# Limitation
+20 nodes max
