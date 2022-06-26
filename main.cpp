@@ -77,9 +77,8 @@ int main() {
                     break;
                 }
                 case sf::Event::MouseMoved: {
-                    if (sel) {
+                    if (sel)
                         ls[mov] = {pos.x, pos.y};
-                    }
                     break;
                 }
                 default:
@@ -121,8 +120,8 @@ int main() {
                 }
                 va[i].position = sf::Vector2f(x, y);
             }
+            win.draw(va);
         }
-        win.draw(va);
 
         win.display();
     }
