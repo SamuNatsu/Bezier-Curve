@@ -4,7 +4,7 @@ A demo of interactable Bézier curve
 Needs SFML for rendering. (https://www.sfml-dev.org/index.php)
 # Build
 ```bash
-$> make .
+$ make .
 ```
 # Usage
 **Right click empty area:** Create a new node
